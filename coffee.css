@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+.mainbg{
+    position: relative;
+    background-image: url(./images/pexels-burst-374885.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -7px;
+    /* padding: 0; */
+    width: 101%;
+    height: 750px;
+}
+.insidenav{
+    overflow: hidden;
+    padding: 1.2%;
+    background:#ffffffb6;
+    text-align: right;
+    font-size: 140%;
+}
+.insidenav span{
+    color: black;
+    margin: 0 2%;
+    padding: 2%;
+}
+.insidenav span:hover{
+    background-color: rgb(65, 33, 11);
+    color: white;
+}
+.insidenav i{
+    position: absolute;
+    left: 5%;
+
+}
+.second{
+    background-image: url(./images/pexels-kevin-menajang-982612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 775px;
+    width: 102%;
+    margin-top: 0em;
+    margin-left: -1em;
+    position: relative;
+}
+.second h1{
+    position: absolute;
+    left: 4%;
+    font-size: 300%;
+    color: white;
+
+}
+.second h1 span{
+    color: black;
+}
+.second p{
+    /* border: white solid 2px; */
+    height: 35%;
+    width: 20%;
+    color: rgba(255, 255, 255, 0.616);
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    font-size: 130%;
+}
+.second p:hover{
+    color: rgba(255, 255, 255, 0.87);
+}
+.third{
+    background-image: url(./images/thirdcoffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 775px;
+    width: 102%;
+    margin-top: 0em;
+    margin-left: -1em;
+    position: relative;
+}
+.third p{
+    width: 20%;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: 120%;
+}
+.type1 p{
+    border: solid 2px rgba(255, 255, 255, 0);
+    color: #dfb78c;
+    background-color: #3a2014;
+    background-size: cover;
+    border-radius: 1%;
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    font-size: small;
+    box-shadow: 0 0 10px #000000;
+}
+.type1 p:hover{
+    box-shadow: 0 0 10px #ffffff;
+    
+}
+.type2 p{
+    border: solid 2px rgba(255, 255, 255, 0);
+    color: #dfb78c;
+    background-color: #3a2014;
+    background-size: cover;
+    border-radius: 1%;
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 12%;
+    left: 75%;
+    font-size: small;
+    box-shadow: 0 0 10px #000000;
+}
+.type2 p:hover{
+    box-shadow: 0 0 10px #ffffff;
+}
+.type3 p{
+    border: solid 2px rgba(255, 255, 255, 0);
+    color: #dfb78c;
+    background-color: #3a2014;
+    background-size: cover;
+    border-radius: 1%;
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-size: small;
+    box-shadow: 0 0 10px #000000;
+}
+.type3 p:hover{
+    box-shadow: 0 0 10px #ffffff;
+}
+.type4 p{
+    border: solid 2px rgba(255, 255, 255, 0);
+    color: #dfb78c;
+    background-color: #3a2014;
+    background-size: cover;
+    border-radius: 1%;
+    height: 35%;
+    width: 20%;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    font-size: small;
+    box-shadow: 0 0 10px #000000;
+}
+.type4 p:hover{
+    box-shadow: 0 0 10px #ffffff;
+}
+.third strong{
+    font-size: large;
+}
+.fourth{
+    background-image: url(./images/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 775px;
+    width: 102%;
+    margin-top: 0em;
+    margin-left: -1em;
+}
+.fourth h1{
+    color: #464646;
+    position: absolute;
+    top: -4%;
+    left: 45%;
+    font-size: 400%;
+}
+.ftype1 img{
+    background-size: cover;
+    border-radius: 1%;
+    height: 35%;
+    width: 25%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    box-shadow: 0 0 20px #000000;
+}
+.ftype2 img{
+    background-size: cover;
+    border-radius: 1%;
+    height: 35%;
+    width: 25%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+    box-shadow: 0 0 20px #000000;
+}
+.ftype3 img{
+    background-size: cover;
+    border-radius: 1%;
+    height: 65%;
+    width: 25%;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    box-shadow: 0 0 20px #000000;
+}
+.ftype4 img{
+    background-size: cover;
+    border-radius: 1%;
+    height: 65%;
+    width: 25%;
+    position: absolute;
+    top: 15%;
+    left: 59%;
+    box-shadow: 0 0 20px #000000;
+}
+.ftype5 img{
+    background-size: cover;
+    border-radius: 1%;
+    height: 65%;
+    width: 25%;
+    position: absolute;
+    top: 15%;
+    left: 86%;
+    box-shadow: 0 0 20px #000000;
+}
+.fifth{
+        background-image: url(./images/coffee/jakob-braun-LmGT_iY-ykc-unsplash.jpg);
+        /* background-color:#464646 ; */
+        position: relative;
+        height: 775px;
+        width: 102%;
+        margin-top: 0em;
+        margin-left: -1em;
+
+}
+.fifth h1{
+    color:antiquewhite;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.fifth form{
+    position: absolute;
+    color:#ffffff;
+    height: 0%;
+    width: 0%;
+    top: 20%;
+    left: 2%;
+
+}
+.fifth button{
+    position: absolute;
+    border-radius: 8%;
+    height: 10%;
+    width: 8%;
+    top: 70%;
+    left: 6%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    border: 1px solid #ffffff; /* Green */
+    font-family: 'Fredoka', sans-serif;
+    
+}
+.fifth button:hover{
+    /* background-image: url(./images/coffeemain2.jpg);
+    background-size: cover; */
+    border: 2px solid rgba(255, 145, 0, 0); /* Green */
+    box-shadow: 0 0 20px #ffffff;
+    background-color: #ffffffb9;
+    color: #000000;
+}
+.fifth span{
+    position: absolute;
+    top: 20%;
+    left: 35%; 
+    box-shadow: 0 0 20px #000000;
+
+}
+.iconsinsta{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    color: #ffffff;
+    font-size: 200%;
+    height: 0%;
+
+}
+.iconsinsta:hover{
+    background-color: #ffffff;
+    color: rgb(255, 77, 216);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.iconswa{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    color: #ffffff;
+    font-size: 200%;
+    height: 0%;
+
+}
+.iconswa:hover{
+    color: rgb(91, 204, 81);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.iconsfb a{
+    color: #ffffff;
+}
+.iconsfb a:hover{
+ color: blue;
+}
+.iconsfb{
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    color: #ffffff;
+    font-size: 200%;
+
+}
+.iconsfb:hover{
+    color: blue;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.fifth h4{
+    position: absolute;
+    bottom: 4%;
+    left: 45%;
+    color: #ffffff;
+}
